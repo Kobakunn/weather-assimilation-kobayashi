@@ -42,6 +42,32 @@ Cloud Storageに蓄積した生データをBigQueryへ取り込み、
 
 ---
 
+## 自動化
+
+Cloud FunctionsおよびCloud Schedulerを利用し、気象データ収集を自動化しました。
+
+### 自動収集フロー
+
+Cloud Scheduler
+↓
+Cloud Functions
+↓
+Open-Meteo API
+↓
+Cloud Storage
+↓
+BigQuery
+↓
+Looker Studio
+
+### 実施内容
+
+- Cloud Schedulerによる定期実行
+- Cloud Functionsによるサーバレス処理
+- Open-Meteo APIからの自動データ取得
+- Cloud Storageへの自動保存
+
+
 ## システム構成
 
 Open-Meteo API
