@@ -48,17 +48,17 @@ Cloud FunctionsおよびCloud Schedulerを利用し、気象データ収集を�
 
 ### 自動収集フロー
 
-Cloud Scheduler
-↓
-Cloud Functions
-↓
-Open-Meteo API
-↓
-Cloud Storage
-↓
-BigQuery
-↓
-Looker Studio
+Cloud Scheduler  
+↓  
+Cloud Functions  
+↓  
+Open-Meteo API  
+↓  
+Cloud Storage  
+↓  
+BigQuery  
+↓  
+Looker Studio  
 
 ### 実施内容
 
@@ -70,15 +70,15 @@ Looker Studio
 
 ## システム構成
 
-Open-Meteo API
-↓
-Cloud Storage（Data Lake）
-↓
-BigQuery STG
-↓
-BigQuery MART
-↓
-Looker Studio
+Open-Meteo API  
+↓  
+Cloud Storage（Data Lake）  
+↓  
+BigQuery STG  
+↓  
+BigQuery MART  
+↓  
+Looker Studio  
 
 
 
